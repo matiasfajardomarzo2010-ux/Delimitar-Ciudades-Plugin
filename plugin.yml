@@ -1,0 +1,9 @@
+name: DelimitarCiudades
+version: 1.0
+main: com.rolcraftlandia.delimitarciudades.Main
+api-version: 1.18
+softdepend: [WorldEdit, PlaceholderAPI]
+commands:
+  dc:
+    description: Comando para delimitar ciudades
+    usage: /dc create "nombre"
